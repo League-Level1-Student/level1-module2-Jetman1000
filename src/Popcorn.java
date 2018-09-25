@@ -11,6 +11,19 @@
  *  Don't change the existing methods.
  */
 
+import javax.swing.JOptionPane;
+
+ class PopcornMaker {
+public static void main(String[] args) {
+String flavorP= JOptionPane.showInputDialog("What flavor do you want your popcorn to be?");
+Popcorn(String flavorP);
+
+
+
+}
+
+}
+
 class Microwave {
 	private int cookTime;
 	Popcorn thingToBeCooked;

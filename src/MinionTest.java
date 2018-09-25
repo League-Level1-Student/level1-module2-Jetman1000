@@ -1,3 +1,5 @@
+import static org.junit.Assert.assertEquals;
+
 /*
  *    Copyright (c) The League of Amazing Programmers 2013-2018
  *    Level 1
@@ -29,8 +31,12 @@ This is because there is no Minion class in the package.
  */
 
 public class MinionTest {
-
-	@Test
+public static void main(String[] args) {
+	MinionTest test=new MinionTest();
+	
+	test.testConstructor();
+	test.testSetters();	
+}
 	public void testConstructor() {
 		Minion stuart = new Minion("Stuart", 1, "yellow", "");
 		assertEquals("Stuart", stuart.getName());
@@ -43,7 +49,6 @@ public class MinionTest {
 		assertEquals("yellow", dave.getColor());
 	}
 
-	@Test
 	public void testSetters() {
 		Minion stuart = new Minion("Stuart", 1, "yellow", "");
 
