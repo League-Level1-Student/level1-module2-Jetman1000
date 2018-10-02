@@ -1,5 +1,3 @@
-/Recipes.html
-/extra/
 /Cup.class
 /Kettle$Water.class
 /Kettle.class
@@ -7,6 +5,8 @@
 /Minion.class
 /MinionTest.class
 /Popcorn.class
+/PopcornMaker.class
+/Recipes.html
 /TeaBag.class
 /TeaMaker.class
-/PopcornMaker.class
+/extra/

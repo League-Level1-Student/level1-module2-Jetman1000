@@ -4,7 +4,6 @@
  *    Level 1
  */
 
-
 /* Your mission and you have to accept it:
  * Create a PopcornMaker class and add a main method to it that creates a bag of Popcorn and cooks it in the microwave.
  * Ask the user for the flavor of the popcorn and the number of minutes to cook it.
@@ -13,16 +12,6 @@
 
 import javax.swing.JOptionPane;
 
- class PopcornMaker {
-public static void main(String[] args) {
-String flavorP= JOptionPane.showInputDialog("What flavor do you want your popcorn to be?");
-Popcorn(String flavorP);
-
-
-
-}
-
-}
 
 class Microwave {
 	private int cookTime;
@@ -72,7 +61,7 @@ public class Popcorn {
 			System.out.println("Don't eat the popcorn. Not all the kernels have popped!");
 		}
 	}
-	
+
 	public void applyHeat() {
 		pause();
 
@@ -91,8 +80,5 @@ public class Popcorn {
 			e.printStackTrace();
 		}
 	}
-	
+
 }
-
-
-
