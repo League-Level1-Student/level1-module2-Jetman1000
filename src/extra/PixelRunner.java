@@ -8,5 +8,8 @@ pp.getRandomColor();
 pp.drawCircle(10, 10, 10);
 pp.drawRectangle(10, 10, 50, 50);
 pp.drawTriangle(10, 10, 10, 10, 10, 10);
+pp.saveImage();
+pp.displayImage();
+
 	}
 }
